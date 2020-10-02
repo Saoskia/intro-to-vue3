@@ -3,7 +3,7 @@ const app = Vue.createApp({
   data() {
     return {
       product: 'Socks',
-      description: 'Warm, cosy, comfy socks.',
+      image: './assets/images/socks_green.jpg'
     }
   }
 }).mount('#app')
